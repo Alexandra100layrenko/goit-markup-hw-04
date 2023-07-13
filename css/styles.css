@@ -413,7 +413,7 @@ p .small{
 .social-list {
   display: flex;
   justify-content: center;
-  column-gap: 10px;
+  column-gap: 120px;
 }
 
 .social-icon {
