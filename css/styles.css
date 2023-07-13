@@ -259,7 +259,7 @@ p .small{
 .image-bg{
   display: block;
   background-color: var(--dark);
-  background-image: linear-gradient(rgba(47, 46, 66, 70%), rgba(47, 46, 66, 70%)), url(../images/people-office-banner.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
   width: 1440px;
   background-repeat: no-repeat;
   position: relative;
@@ -376,11 +376,12 @@ p .small{
   padding-bottom: 100px;
 }
 .footer-content{
-  display: inline-block;
+  display: flex;
   flex-direction: row;
+  gap: 120px;
 }
 .logo-footer{
-  display: inline-block;
+  display: flex;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -396,6 +397,43 @@ p .small{
 .footer-descriptions{
   max-width: 264px;
   color: var(--light);
+}
+.social{
+  display: flex;
+}
+
+.social-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4D5AE5;
+}
+
+.social-list-icon {
+  fill: #ffffff;
+  transition: fill var(--transition-duration-and-func);
+}
+
+.social-icon:hover .social-list-icon,
+.social-icon:focus .social-list-icon {
+  fill: var(--accent-color);
 }
 /* ================= PORTFOLIO ================= */
 
