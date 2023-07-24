@@ -457,10 +457,8 @@ p .small{
 }
 
 .customers-item{
-  height: 88px;
-}
-.customers-item li:first-child{
   width: calc((100% - 120px) / 6);
+  height: 88px;
 }
 
 .customers-link{
