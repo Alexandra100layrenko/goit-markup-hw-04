@@ -725,6 +725,17 @@ p .small{
   overflow: hidden;
 }
 
+.cards-product-descriptions{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.cards-product-link p:hover{
+  transform: translateY(0%);
+}
+
 .cards-product-descriptions-desc{
   position: absolute;
   top: 0;
@@ -753,14 +764,5 @@ p .small{
   color: var(--dark);
   margin-bottom: 8px;
 }
-.cards-product-descriptions{
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-}
-.cards-product-descriptions:hover,
-.cards-product-descriptions:focus{
-  transform: translateY(0%);
-}
+
 /* ================= PORTFOLIO ================= */
