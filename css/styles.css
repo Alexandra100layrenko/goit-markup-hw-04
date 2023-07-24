@@ -443,8 +443,7 @@ p .small{
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.customers-block{ 
-}
+
 .customers-block-text{
   font-size: 36px;
   line-height: 1.11;
@@ -662,14 +661,6 @@ p .small{
   margin-bottom: 72px;
 }
 
-.menu-filter-item:hover,
-.menu-filter-item:focus{
-  display: block;
-  color: #ffffff;
-  background-color: #404BBF;
-  border: 1px solid transparent;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); 
-}
 .menu-filter-btn{
   display: block;
   font-family: "Roboto", sans-serif;
@@ -682,16 +673,16 @@ p .small{
   padding: 12px 24px;
   border-radius: 4px;
   border: 1px solid #e7e9fc;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-filter-btn:hover,
 .menu-filter-btn:focus{
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.filter-btn-link{
   display: block;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #ffffff;
+  background-color: #404BBF;
+  border: 1px solid transparent;
 }
 
 /* ================= SECTION-2 ================= */
@@ -726,10 +717,18 @@ p .small{
 }
 
 .cards-product-descriptions{
+  position: absolute;
+  top: 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--light);
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cards-product-link p:hover{
@@ -737,8 +736,6 @@ p .small{
 }
 
 .cards-product-descriptions-desc{
-  position: absolute;
-  top: 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
