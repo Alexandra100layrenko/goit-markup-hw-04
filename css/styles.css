@@ -456,10 +456,12 @@ p .small{
 }
 
 .customers-item{
-  width: calc((100% - 120px) / 6);
   height: 88px;
 }
 
+.customers-item-1{
+  width: calc((100% - 120px) / 6);
+}
 .customers-link{
   display: flex;
   align-items: center;
