@@ -733,8 +733,8 @@ p .small{
   overflow: auto;
 }
 
-.cards-product-img-wrapper:hover .overlay-descriptions,
-.cards-product-img-wrapper:focus .overlay-descriptions{
+.cards-product-link:hover .overlay-descriptions,
+.cards-product-link:focus .overlay-descriptions{
   transform: translateY(0%);
 }
 
