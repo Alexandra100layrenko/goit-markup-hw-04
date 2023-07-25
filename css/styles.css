@@ -715,7 +715,7 @@ p .small{
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.cards-product-img-block{
+.cards-product-img-wrapper{
   position: relative;
   overflow: hidden;
 }
@@ -737,8 +737,8 @@ p .small{
   overflow: auto;
 }
 
-.cards-product-descriptions:hover .overlay-descriptions,
-.cards-product-descriptions:focus .overlay-descriptions{
+.cards-product-img-wrapper:hover .overlay-descriptions,
+.cards-product-img-wrapper:focus .overlay-descriptions{
   transform: translateY(0%);
 }
 
