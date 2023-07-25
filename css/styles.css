@@ -737,12 +737,8 @@ p .small{
   overflow: auto;
 }
 
-.cards-product-descriptions:hover,
-.cards-product-descriptions:focus{
-  transform: translateY(0%);
-}
-
-.cards-product-link p:hover{
+.cards-product-descriptions:hover .overlay-descriptions,
+.cards-product-descriptions:focus .overlay-descriptions{
   transform: translateY(0%);
 }
 
