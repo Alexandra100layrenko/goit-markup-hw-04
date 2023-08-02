@@ -149,7 +149,7 @@ p .small{
   color: var(--primary-brand);
 }
 
-/* ================= HEADER ================= */
+/* ================ HEADER ================= */
 .page-header{
   align-items: center;
   color: var(--dark);
