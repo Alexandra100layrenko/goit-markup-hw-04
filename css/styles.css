@@ -338,6 +338,11 @@ p .small{
   padding-bottom: 120px;
 }
 
+.product-text{
+  text-align: center;
+  margin-bottom: 72px;
+}
+
 .category-product-list{
   display: flex;
   align-items: center;
@@ -353,6 +358,10 @@ p .small{
   padding-bottom: 120px;
 }
 
+.card-text{
+  text-align: center;
+  margin-bottom: 72px;
+}
 .card-employee-list{
   display: flex;
   align-content: center;
