@@ -550,7 +550,7 @@ p .small{
   fill: var(--light);
 }
 
-.social-list-link{
+.social-list-icon{
   transition: fill var(--transition-duration-and-func);
 }
 
