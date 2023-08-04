@@ -198,7 +198,7 @@ p .small{
 }
 .menu-link:hover,
 .menu-link:focus{
-  color: #404bbf;
+  color: var(--accent-color-pressed-state);
 }
 .current{
   position: relative;
