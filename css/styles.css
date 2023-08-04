@@ -548,11 +548,12 @@ p .small{
 .social-list-link:focus {
   background-color: #31d0aa;
   fill: var(--light);
-}
-
-.social-list-icon{
   transition: fill var(--transition-duration-and-func);
 }
+
+/*.social-list-icon{
+  transition: fill var(--transition-duration-and-func);
+}*/
 
 .social-icon:hover .social-list-icon,
 .social-icon:focus .social-list-icon {
