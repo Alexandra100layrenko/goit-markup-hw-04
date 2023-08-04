@@ -160,6 +160,7 @@ p .small{
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
+  color: var(--dark);
 }
 
 .page-header-container{
@@ -378,6 +379,9 @@ p .small{
 .card-employee-desc{
   padding-top: 32px;
   padding-bottom: 32px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
 }
 .card-employee-name{
   text-align: center;
@@ -428,6 +432,7 @@ p .small{
   line-height: 1.11;
   color: var(--dark);
   margin-bottom: 72px;
+  text-align: center;
 }
 
 .customers-list{
@@ -497,6 +502,8 @@ p .small{
 }
 .social{
   display: flex;
+  flex-direction: column;
+  margin-right: 80px;
 }
 
 .social-name {
@@ -589,7 +596,7 @@ p .small{
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-btn{
+.modal-close-btn {
   display: flex;
   position: absolute;
   align-items: center;
@@ -601,7 +608,7 @@ p .small{
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: #e7e9fc;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 0;
   cursor: pointer;
 }
@@ -713,7 +720,6 @@ p .small{
 
 .cards-product-link:hover,
 .cards-product-link:focus{
-  transform: translateY(0%);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
