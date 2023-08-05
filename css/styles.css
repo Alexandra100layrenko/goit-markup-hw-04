@@ -201,8 +201,9 @@ a.logo.link {
 }
 .menu-link:hover,
 .menu-link:focus{
-  color: var(--accent-color-pressed-state);
+  color: #404BBF;
 }
+
 .current{
   position: relative;
   color: #404bbf; 
