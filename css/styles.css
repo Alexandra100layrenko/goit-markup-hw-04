@@ -149,6 +149,10 @@ p .small{
   color: var(--primary-brand);
 }
 
+a.logo.link {
+  color: var(--primary-brand);
+} 
+
 /* ================ HEADER ================= */
 .page-header{
   align-items: center;
@@ -541,6 +545,7 @@ p .small{
   height: 100%;
   background-color: var(--primary-brand);
   border-radius: 50%;
+  fill: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
